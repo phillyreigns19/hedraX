@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "id": "src/screens/LandingPage/LandingPage.tsx",
+      "label": "LandingPage",
+      "routes": [
+        "/"
+      ],
+      "dataModelId": "595:18",
+      "isRoot": true
+    },
+    {
+      "id": "src/screens/MarketplacePage/MarketplacePage.tsx",
+      "label": "MarketplacePage",
+      "routes": [
+        "/marketplace"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "src\\screens\\LandingPage\\sections\\HeroSection\\HeroSection.tsx:29:27-to-src\\screens\\MarketplacePage\\MarketplacePage.tsx",
+      "source": "src\\screens\\LandingPage\\LandingPage.tsx",
+      "target": "src\\screens\\MarketplacePage\\MarketplacePage.tsx",
+      "data": {
+        "viaRoute": "/marketplace",
+        "trigger": {
+          "element": "navigate(\"/marketplace\")",
+          "line": 29,
+          "endLine": 29,
+          "column": 27,
+          "endColumn": 51,
+          "sourceFile": "src\\screens\\LandingPage\\sections\\HeroSection\\HeroSection.tsx"
+        }
+      }
+    },
+    {
+      "id": "src\\screens\\MarketplacePage\\MarketplacePage.tsx:57:10-to-src\\screens\\LandingPage\\LandingPage.tsx",
+      "source": "src\\screens\\MarketplacePage\\MarketplacePage.tsx",
+      "target": "src\\screens\\LandingPage\\LandingPage.tsx",
+      "data": {
+        "viaRoute": "/",
+        "trigger": {
+          "element": "<a\r\n            href=\"/\"\r\n            className=\"[font-family:'Gilroy-SemiBold-SemiBold',Helvetica] font-semibold text-[#d5d7e38c] text-base tracking-[-0.32px] hover:text-[#d5d7e3]\"\r\n          >\r\n            Marketplace\r\n          </a>",
+          "line": 57,
+          "endLine": 62,
+          "column": 10,
+          "endColumn": 14,
+          "sourceFile": "src\\screens\\MarketplacePage\\MarketplacePage.tsx"
+        }
+      }
+    }
+  ]
+}
